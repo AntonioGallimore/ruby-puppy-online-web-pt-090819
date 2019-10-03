@@ -10,7 +10,7 @@ class Dog
   
   def self.print_all
     @@all.sort_by(){|dog|
-      puts dog.name
+      puts dog.name}
     end
 
   def self.clear_all
