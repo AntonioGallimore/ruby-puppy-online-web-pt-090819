@@ -15,7 +15,7 @@ class Dog
     @@all.sort_by(){|dog|
       puts dog.name}
     end
-    def self.save
+    def save
       @@all << self
     end
     
