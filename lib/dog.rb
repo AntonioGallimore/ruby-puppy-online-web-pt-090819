@@ -8,6 +8,7 @@ class Dog
     @@all << self
     dog.new = name
   end
+  
   def self.all
     @@all
   end
@@ -16,6 +17,7 @@ class Dog
     @@all.sort_by(){|dog|
       puts dog.name}
     end
+    
     def save
       @@all << self
     end
